@@ -1,0 +1,31 @@
+body, html{
+    height: 100vh;
+    background-color: lightgreen;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+padding: 20px;
+border-radius: 10px;
+width: 90vw;
+}
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(205, 223, 205, 0.25);
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
